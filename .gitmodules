@@ -1,0 +1,3 @@
+[submodule "cocawork_submodule"]
+	path = cocawork_submodule
+	url = https://github.com/HE-DE/cocawork_submodule.git
