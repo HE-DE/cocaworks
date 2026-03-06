@@ -35,3 +35,8 @@ COMMIT_TYPES=feat,fix,chore,docs,refactor,test,misc,style
 COMMIT_TEMPLATE={type}({scope}): {summary}
 MERGE_TEMPLATE=merge({base}<-{work}): {purpose}
 <!-- GITRULES:END -->
+BASE_BRANCHES=main,develop,release
+BRANCH_PURPOSES=feature:feature/{scope}-{slug};fix:fix/{scope}-{slug};hotfix:hotfix/{scope}-{slug};chore:chore/{scope}-{slug}
+COMMIT_TYPES=feat,fix,chore,docs,refactor,test,misc,style
+COMMIT_TEMPLATE={type}({scope}): {summary}
+MERGE_TEMPLATE=merge({base}<-{work}): {purpose}
